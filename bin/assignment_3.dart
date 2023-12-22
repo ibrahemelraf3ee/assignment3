@@ -4,7 +4,16 @@ import 'package:test/expect.dart';
 
 void main()
 {
-
+  task1();
+  task2();
+  task3();
+  task4();
+  task5();
+  task6();
+  task7();
+  task8();
+  task9();
+  task10();
 }
 
 task1()
@@ -93,7 +102,7 @@ task4()
   }
 }
 
-Task5()
+task5()
 {
 List<String> word =["Bat man","Batata","Orange","Apple","Bear","Coconut"];
 List<String> reuslt =[];
@@ -110,7 +119,7 @@ for(int i = 0 ; i <word.length ; i++)
 print(reuslt);
 }
 
-Task6()
+task6()
 {
   print("Enter the sentance");
   String sentance = stdin.readLineSync()!;
